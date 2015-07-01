@@ -47,43 +47,19 @@ puts "You ate a total of #{num_of_hotdogs_eaten} hot dogs!"
 # => "You ate a total of 7 hot dogs"
 ```
 
-%%%
-
-## Using the `while` method
+# Using the `while` method
 
 Guess what? We're still struggling to master that levitation charm! But we are so close. Currently, our we have a levitation force of 6. We need to have a levitation force of 10 in order to actually levitate that feather. 
 
 Let's write a while loop that will continue to puts out the phrase "Wingardium Leviosa" while our levitation force is less than 10. 
 
-Fill out the content of the `using_while` method so that calling it will puts out the desired phrase while your levitation force is less than 10. 
+## Instructions
+1. Fork and clone this lab.
+2. Run the test suite to get started. 
+3. Code your solution in `while.rb`:
 
-```ruby
-def using_while
-	levitation_force = 6
-	#your code here
-end
+	* Fill out the content of the `using_while` method so that calling it will puts out the desired phrase while your levitation force is less than 10. 
 
-~~~solution
-
-def using_while
-	levitation_force = 6
-	while levitation_force < 10
-		puts "Wingardium Leviosa"
-		levitation_force += 1
-	end
-	puts "You did it! The feather is levitating!"
-end
-
-using_while
-
-~~~validation
-looping_string = "Wingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\n"
-
-expect{ using_while }.to output(looping_string).to_stdout
-
-```
-
-%%%
 
 
 # Until
