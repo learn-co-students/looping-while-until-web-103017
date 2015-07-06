@@ -29,7 +29,7 @@ Let's say you are a world famous competitive eater participating in the Coney Is
 
 ```ruby
 num_of_hotdogs_eaten = 0
-while num <= 7
+while num_of_hotdogs_eaten <= 7
   num_of_hotdogs_eaten += 1
   puts "You have now eaten #{num_of_hotdogs_eaten} hot dog(s)"
 end
@@ -43,8 +43,9 @@ puts "You ate a total of #{num_of_hotdogs_eaten} hot dogs!"
 # => "You have now eaten 5 hot dog(s)"
 # => "You have now eaten 6 hot dog(s)"
 # => "You have now eaten 7 hot dog(s)"
+# => "You have now eaten 8 hot dog(s)"
 
-# => "You ate a total of 7 hot dogs"
+# => "You ate a total of 8 hot dogs"
 ```
 
 # Until
@@ -67,14 +68,16 @@ end
 
 Guess what? We're still struggling to master that levitation charm! But we are so close. Currently, our we have a levitation force of 6. We need to have a levitation force of 10 in order to actually levitate that feather. 
 
-Let's write a while loop that will continue to puts out the phrase "Wingardium Leviosa" while our levitation force is less than 10. 
+First, we'll write a while loop that will continue to puts out the phrase "Wingardium Leviosa" while our levitation force is less than 10. Everytime we puts out that phrase, we should increment our levitation force by one. 
+
+Then, we'll write an until loop that will puts out the same phrase until the levitation force is equal to 10, incrementing the levitation force by 1 each time we puts out the phrase.  
 
 ## Instructions
 1. Fork and clone this lab.
 2. Run the test suite to get started. 
 3. Let's get the first test passing by coding our solution in `while.rb`:
-
-	* Fill out the content of the `using_while` method so that calling it will puts out the desired phrase while your levitation force is less than 10. 
+	* Fill out the content of the `using_while` method so that calling it will puts out the desired phrase while your levitation force is less than 10. Remember, every time you puts out the phrase, you should increment your levitation force by one. 
 4. Let's get the second test passing by coding our solution in `until.rb`:
-	* Fill out the content of the `using_until` method to puts out the desired phrase, "Wingardium Leviosa", until our levitation force equals 10. 
+	* Fill out the content of the `using_until` method to puts out the desired phrase, "Wingardium Leviosa", until our levitation force equals 10. Remember, every time you puts out the phrase, you should increment your levitation force by one. 
+
 
