@@ -1,4 +1,13 @@
-# The `while` Construct
+# The `while` and `until` Constructs
+
+## Objectives
+
+1. Understand the `while` construct and how it implements looping
+2. Build a method that uses `while`
+3. Understand the `until` looping construct
+4. Build a method that uses `until`
+
+## `while`
 
 The `while` construct is a little different from the first two constructs (`loop` and `times`) that we looked at earlier. The `while` construct will keep executing a block as long as a specific condition is `true`.
 
@@ -47,7 +56,7 @@ puts "You ate a total of #{num_of_hotdogs_eaten} hot dogs!"
 # => "You ate a total of 7 hot dogs!"
 ```
 
-# Until
+## `until`
 
 `Until` is simply the inverse of a `while` loop. An `until` keyword will keep executing a block *until a specific condition is true*. In other words, the block of code following `until` will execute while the condition is false. One helpful way to think about it is to read `until` as "if not".
 
@@ -69,7 +78,8 @@ Guess what? We're still struggling to master that levitation charm! But we are s
 
 First, we'll write a while loop that will continue to `puts` the phrase "Wingardium Leviosa" while our levitation force is less than `10`. Everytime we `puts` that phrase, we should increment our levitation force by `1`. 
 
-Then, we'll solve this again by using an `until` loop. With will `puts` the phrase "Wingardium Leviosa" until the levitation force is equal to `10`, incrementing the levitation force by `1` each time we `puts` the phrase.  
+
+Then, we'll solve this again by using an `until` loop. With will `puts` the phrase "Wingardium Leviosa" until the levitation force is equal to `10`, incrementing the levitation force by `1` each time we `puts` the phrase.
 
 ## Instructions
 
