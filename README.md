@@ -1,4 +1,13 @@
-# The While Construct
+# The `while` and `until` Constructs
+
+## Objectives
+
+1. Understand the `while` construct and how it implements looping
+2. Build a method that uses `while`
+3. Understand the `until` looping construct
+4. Build a method that uses `until`
+
+## `while`
 
 `while` is a little different from the first two constructs we looked at earlier. `while` will keep executing a block as long as a specific condition is `true`.
 
@@ -48,7 +57,7 @@ puts "You ate a total of #{num_of_hotdogs_eaten} hot dogs!"
 # => "You ate a total of 8 hot dogs"
 ```
 
-# Until
+## `until`
 
 `Until` is simply the inverse of a `while` loop. An `until` keyword will keep executing a block *until a specific condition is true*. In other words, the block of code following `until` will execute while the condition is false. One helpful way to think about it is to read `until` as "if not".
 
@@ -70,9 +79,10 @@ Guess what? We're still struggling to master that levitation charm! But we are s
 
 First, we'll write a while loop that will continue to puts out the phrase "Wingardium Leviosa" while our levitation force is less than 10. Everytime we puts out that phrase, we should increment our levitation force by one. 
 
-Then, we'll write an until loop that will puts out the same phrase until the levitation force is equal to 10, incrementing the levitation force by 1 each time we puts out the phrase.  
+Then, we'll write an until loop that will puts out the same phrase until the levitation force is equal to 10, incrementing the levitation force by 1 each time we puts out the phrase. 
 
 ## Instructions
+
 1. Fork and clone this lab.
 2. Run the test suite to get started. 
 3. Let's get the first test passing by coding our solution in `while.rb`:
