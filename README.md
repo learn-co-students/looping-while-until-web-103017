@@ -74,7 +74,7 @@ end
 
 # Using `while` and `until`
 
-Guess what? We're still struggling to master that levitation charm! But we are so close. Currently, we have a levitation force of `6`. We need to have a levitation force of `10` in order to actually levitate that feather. 
+It's our first year at Hogwarts and we're struggling to master the levitation charm, "Wingardium Leviosa". Currently, we have a levitation force of `6`. We need to have a levitation force of `10` in order to actually levitate that feather. 
 
 First, we'll write a while loop that will continue to `puts` the phrase "Wingardium Leviosa" while our levitation force is less than `10`. Everytime we `puts` that phrase, we should increment our levitation force by `1`. 
 
