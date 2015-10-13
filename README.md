@@ -31,7 +31,7 @@ We can achieve all of that with just a few lines of code utilizing a `while` con
 
 ## Examples
 
-#### Basic `while` Example: Hot Dog Eating Context
+#### Basic `while` Example: Hot Dog Eating Contest
 
 Let's say you are a world famous competitive eater participating in the Coney Island Nathan's Hot Dog Eating Contest. You're kind of new to the competitive eating game though, so you only have the capacity for seven (7) hot dogs.
 
