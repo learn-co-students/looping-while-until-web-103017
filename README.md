@@ -13,7 +13,7 @@ It's our first year at Hogwarts and we're struggling to master the levitation ch
 First, we'll write a while loop that will continue to `puts` the phrase "Wingardium Leviosa" while our levitation force is less than `10`. Everytime we `puts` that phrase, we should increment our levitation force by `1`.
 
 
-Then, we'll solve this again by using an `until` loop. With will `puts` the phrase "Wingardium Leviosa" until the levitation force is equal to `10`, incrementing the levitation force by `1` each time we `puts` the phrase.
+Then, we'll solve this again by using an `until` loop. It will `puts` the phrase "Wingardium Leviosa" until the levitation force is equal to `10`, incrementing the levitation force by `1` each time we `puts` the phrase.
 
 ## Instructions
 
