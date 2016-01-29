@@ -29,4 +29,4 @@ Fill out the content of the `using_until` method to `puts` the desired phrase, "
 
 **Hint: If you get stuck an infinite loop when you run your tests or your code, you can abort the test run or code by pressing `CONTROL+C` on your keyboard.**
 
-<a href='https://learn.co/lessons/looping-while-until' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/looping-while-until' title='The while and until Constructs'>The while and until Constructs</a> on Learn.co and start learning to code for free.</p>
